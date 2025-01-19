@@ -8,5 +8,8 @@ namespace DotnetAuth.Domain.Entities
         public string LastName { get; set; }
         public string Gender { get; set; }
         public string? RefreshToken { get; set; }
+        public DateTime? RefreshTokenExpiryTime { get; set; }
+        public DateTime CreatedAt { get; set; }
+        public DateTime UpdatedAt { get; set; }
     }
 }
